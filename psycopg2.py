@@ -8,7 +8,7 @@ cursor.execute(new_type)
 import psycopg2
 
 #Establishing the connection
-conn = psycopg2.connect(database = "odev", user = "postgres", password = "12345", host = "localhost", port = "5432")
+conn = psycopg2.connect(database = "*****", user = "postgres", password = "*****", host = "localhost", port = "5432")
 
 #Creating a cursor object using the cursor() method
 cursor = conn.cursor()
